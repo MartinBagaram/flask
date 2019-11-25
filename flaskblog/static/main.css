@@ -78,3 +78,14 @@ body {
   .account-heading {
     font-size: 2.5rem;
   }
+
+  /* comments */
+  .media .avatar {
+    width: 64px;
+}
+.shadow-textarea textarea.form-control::placeholder {
+    font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+    padding-left: 0.8rem;
+}
