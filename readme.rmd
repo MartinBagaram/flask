@@ -1,5 +1,15 @@
 flaskblog
-│   ├── routes.py
+├── flaskblog
+│   ├── config.py
+│   ├── __init__.py
+│   ├── main
+│   │   ├── __init__.py
+│   │   └── routes.py
+│   ├── models.py
+│   ├── posts
+│   │   ├── forms.py
+│   │   ├── __init__.py
+│   │   └── routes.py
 │   ├── site.db
 │   ├── static
 │   │   ├── img
@@ -20,9 +30,10 @@ flaskblog
 │   │   ├── reset_request.html
 │   │   └── reset_token.html
 │   └── users
-│       └── __init__.py
-├── __pycache__
-│   ├── flaskblog.cpython-37.pyc
-│   └── forms.cpython-37.pyc
+│       ├── forms.py
+│       ├── __init__.py
+│       ├── routes.py
+│       └── utils.py
+├── readme.rmd
 ├── run.py
 └── site.db
