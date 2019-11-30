@@ -35,5 +35,4 @@ flaskblog
 │       ├── routes.py
 │       └── utils.py
 ├── readme.rmd
-├── run.py
-└── site.db
+└── run.py
