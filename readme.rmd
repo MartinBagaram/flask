@@ -1,0 +1,28 @@
+flaskblog
+│   ├── routes.py
+│   ├── site.db
+│   ├── static
+│   │   ├── img
+│   │   │   ├── dec3a5eba492b324.jpg
+│   │   │   ├── default.jpg
+│   │   │   ├── e1b91d26ed1bae24.jpg
+│   │   │   └── logo.png
+│   │   └── main.css
+│   ├── templates
+│   │   ├── about.html
+│   │   ├── account.html
+│   │   ├── create_post.html
+│   │   ├── home.html
+│   │   ├── layout.html
+│   │   ├── login.html
+│   │   ├── post.html
+│   │   ├── register.html
+│   │   ├── reset_request.html
+│   │   └── reset_token.html
+│   └── users
+│       └── __init__.py
+├── __pycache__
+│   ├── flaskblog.cpython-37.pyc
+│   └── forms.cpython-37.pyc
+├── run.py
+└── site.db
