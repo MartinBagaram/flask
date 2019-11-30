@@ -45,7 +45,7 @@ def login():
 @users.route('/logout')
 def logout():
     logout_user()
-    return redirect('main.home')
+    return redirect(url_for('main.home'))
 
 @users.route('/account', methods=['GET', 'POST'])
 @login_required
